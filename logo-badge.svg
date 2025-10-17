@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Logo Badge Lab Open Source">
+  <defs>
+    <radialGradient id="rg" cx="0.3" cy="0.3">
+      <stop offset="0" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#F94144"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Emblema circular -->
+  <circle cx="200" cy="200" r="180" fill="#0B132B"/>
+  <circle cx="200" cy="200" r="150" fill="url(#rg)"/>
+
+  <!-- Símbolo: <> com seta de colaboração -->
+  <g transform="translate(140,120)" fill="#0B132B">
+    <path d="M10 50 L30 30 L10 10" stroke="#0B132B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M160 50 L140 30 L160 10" stroke="#0B132B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M40 80 L120 80 L120 60" stroke="#0B132B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="120" cy="40" r="10" fill="#0B132B"/>
+  </g>
+
+  <!-- Texto circular -->
+  <g font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="200" y="310" fill="#0B132B" font-weight="700" font-size="20">Lab Open Source</text>
+    <text x="200" y="338" fill="#0B132B" font-size="12">Contribuindo em um Projeto no GitHub</text>
+  </g>
+</svg>

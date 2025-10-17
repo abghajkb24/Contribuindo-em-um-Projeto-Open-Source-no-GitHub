@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" width="720" height="240" role="img" aria-label="Logo Rocket Lab Open Source">
+  <defs>
+    <linearGradient id="gradR" x1="0" x2="1">
+      <stop offset="0" stop-color="#00C2A8"/>
+      <stop offset="1" stop-color="#0077B6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ícone rocket + colchetes -->
+  <g transform="translate(40,24)">
+    <!-- code bracket left -->
+    <path d="M0 60 L18 72 L0 84" stroke="#0F172A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- rocket body -->
+    <g transform="translate(60,0)">
+      <ellipse cx="56" cy="80" rx="40" ry="80" fill="url(#gradR)"/>
+      <rect x="40" y="30" width="32" height="40" rx="8" fill="#fff" opacity="0.12"/>
+      <path d="M16 160 C36 132 76 132 96 160" fill="#FFB703"/>
+      <circle cx="56" cy="60" r="14" fill="#ffffff" opacity="0.9"/>
+    </g>
+    <!-- code bracket right -->
+    <path d="M220 60 L238 72 L220 84" stroke="#0F172A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Texto -->
+  <g transform="translate(320,72)" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="0" y="34" fill="#0F172A" font-size="40" font-weight="800">Lab Open Source</text>
+    <text x="0" y="70" fill="#475569" font-size="14">Contribuindo em um Projeto Open Source no GitHub</text>
+  </g>
+</svg>

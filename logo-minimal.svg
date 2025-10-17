@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="Logo Minimal Lab Open Source">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#6C5CE7"/>
+      <stop offset="1" stop-color="#00B4D8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ícone circular com colchetes de código -->
+  <rect x="24" y="24" width="152" height="152" rx="36" fill="url(#g1)"/>
+  <g transform="translate(40,40)" fill="#fff" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700">
+    <!-- left bracket -->
+    <path d="M18 36 L6 48 L18 60" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- right bracket -->
+    <path d="M114 36 L126 48 L114 60" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- small branch icon (stylized) -->
+    <circle cx="66" cy="36" r="6" fill="#ffffff" />
+    <circle cx="90" cy="60" r="6" fill="#ffffff" />
+    <path d="M72 44 L84 52" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Texto principal -->
+  <g transform="translate(200,60)" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="0" y="34" fill="#0F172A" font-size="34" font-weight="700">Lab Open Source</text>
+    <text x="0" y="70" fill="#475569" font-size="14">Contribuindo em um Projeto Open Source no GitHub</text>
+  </g>
+</svg>
